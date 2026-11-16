@@ -153,7 +153,7 @@ fun loadBitmapFromUri(context: Context, uri: Uri): Bitmap? {
 }
 
 // Set to true only when building the GitHub demo APK, false for your full unlimited version
-private const val IS_DEMO_VERSION = false
+private const val IS_DEMO_VERSION = true
 
 @Composable
 fun VaultAppScreen() {
